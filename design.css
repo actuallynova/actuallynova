@@ -42,6 +42,7 @@ body
 .bgimg
 {
 	width: 100%;
+	border-radius: 40%;
 }
 .linkrefs
 {
@@ -56,14 +57,37 @@ body
 	position: relative;
 	padding: 0.5em 2.5em;
 	margin-left: 5px;
-	bottom: 35vh;
+	bottom: 45vh;
 	left: 30vh;
-	transition-property: width, height;
-	transition-duration: 1s;
-	transition-timing-function: linear;
 	transition: color 0.5s ease, border-color 0.5s ease;
 }
 .linkrefs:hover
+{
+	color: #479b0f;
+	border-color: #479b0f;
+}
+.discord a
+{
+	text-align: center;
+	font-family: "Arimo";
+	color: white;
+	text-decoration: none;
+	border: solid white 2px;
+	box-sizing: border-box;
+	font-size: 25px;
+	position: relative;
+	padding: 0.5em 2.5em;
+	bottom: 50vh;
+	transition: color 0.5s ease, border-color 0.5s ease;
+	left: 35%;
+	background-image: url('imgs/discord.png');
+	background-repeat: no-repeat;
+	background-size: 30px 30px;
+	background-position: center left 30px;
+	
+	
+}
+.discord a:hover
 {
 	color: #479b0f;
 	border-color: #479b0f;
