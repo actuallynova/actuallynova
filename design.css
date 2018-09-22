@@ -61,5 +61,10 @@ body
 	transition-property: width, height;
 	transition-duration: 1s;
 	transition-timing-function: linear;
-	transition: width 2s linear 1s;
+	transition: color 0.5s ease, border-color 0.5s ease;
+}
+.linkrefs:hover
+{
+	color: #479b0f;
+	border-color: #479b0f;
 }
