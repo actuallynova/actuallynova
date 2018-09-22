@@ -84,8 +84,7 @@ body
 	background-repeat: no-repeat;
 	background-size: 30px 30px;
 	background-position: center left 30px;
-	
-	
+	margin-left: 20px;
 }
 .discord a:hover
 {
