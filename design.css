@@ -1,4 +1,4 @@
-/*
+﻿/*
 Created by Nova
 22 Sept. 2018
 */
@@ -58,7 +58,7 @@ body
 	padding: 0.5em 2.5em;
 	margin-left: 5px;
 	bottom: 30vh;
-	left: 30vh;
+	left: 40vh;
 	transition: color 0.5s ease, border-color 0.5s ease;
 }
 .linkrefs:hover
@@ -75,19 +75,43 @@ body
 	border: solid white 2px;
 	box-sizing: border-box;
 	font-size: 25px;
-	position: fixed;
+	position: relative;
 	padding: 0.5em 2.5em;
-	bottom: 36vh;
+	bottom: 35vh;
 	transition: color 0.5s ease, border-color 0.5s ease;
 	left: 35%;
 	background-image: url('imgs/discord.png');
 	background-repeat: no-repeat;
 	background-size: 30px 30px;
 	background-position: center left 30px;
-	margin-left: 20px;
+	left: 83vh;
 }
 .discord a:hover
 {
 	color: #479b0f;
 	border-color: #479b0f;
+}
+.copyright
+{
+	height: 35px;
+	background-color: black;
+	width: 80%;
+	position: fixed;
+	bottom: 0%;
+	left: 10%;
+}
+.container
+{
+	margin: 0 auto;
+	max-width: 1000px;
+}
+.fottext
+{
+	text-align: center;
+	margin-top: 4px;
+	width: 100%;
+	color: white;
+	font-family: "arimo";
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
