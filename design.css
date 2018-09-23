@@ -43,6 +43,7 @@ body
 {
 	width: 100%;
 	border-radius: 40%;
+	opacity: 0.5;
 }
 .linkrefs
 {
@@ -60,6 +61,7 @@ body
 	bottom: 30vh;
 	left: 40vh;
 	transition: color 0.5s ease, border-color 0.5s ease;
+	text-shadow: 2px 2px black;
 }
 .linkrefs:hover
 {
@@ -85,6 +87,7 @@ body
 	background-size: 30px 30px;
 	background-position: center left 30px;
 	left: 83vh;
+	text-shadow: 2px 2px black;
 }
 .discord a:hover
 {
